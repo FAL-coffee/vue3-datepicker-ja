@@ -1,6 +1,6 @@
 {
   "name": "vue3-datepicker-ja",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "/dist"
@@ -30,9 +30,10 @@
   },
   "main": "./dist/vue3-datepicker-ja.umd.js",
   "module": "./dist/vue3-datepicker-ja.js",
+  "types": "./dist/DatePicker.vue.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/DatePicker.vue.d.ts",
       "import": "./dist/vue3-datepicker-ja.js",
       "require": "./dist/vue3-datepicker-ja.umd.js"
     }
