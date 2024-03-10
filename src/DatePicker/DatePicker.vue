@@ -304,5 +304,5 @@ watch(
 </template>
 
 <style lang="scss" scoped>
-@import url('./DatePicker.scss');
+@import 'src/DatePicker/style.scss';
 </style>

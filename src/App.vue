@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import DatePicker from './components/DatePicker'
+import DatePicker from './DatePicker'
 
 const currentDate = defineModel('currentDate', {
   type: String,

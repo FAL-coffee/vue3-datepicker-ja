@@ -2,6 +2,7 @@ import vue from '@vitejs/plugin-vue'
 // @ts-ignore
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 import dts from 'vite-plugin-dts'
 
 // https://vitejs.dev/config/
@@ -12,6 +13,7 @@ export default defineConfig({
       entryRoot: 'src/DatePicker',
       outDir: 'dist/types',
     }),
+    cssInjectedByJsPlugin(),
   ],
   build: {
     lib: {
