@@ -6,7 +6,7 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
-    "rootDir": ".",
+    "rootDir": "./src",
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -14,10 +14,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "emitDeclarationOnly": true,
-    "declaration": true,
-    "declarationMap": true,
-    "declarationDir": "./dist",
+    "noEmit": true,
+    // "emitDeclarationOnly": true,
+    // "declaration": true,
+    // "declarationMap": true,
+    // "declarationDir": "./dist/types",
 
     /* Linting */
     "strict": true,

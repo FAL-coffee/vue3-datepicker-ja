@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "files": [
-    "/dist",
-    "/src"
+    "/dist"
   ],
   "private": false,
   "author": "FAL-coffee",
@@ -31,17 +30,16 @@
   },
   "main": "./dist/vue3-datepicker-ja.umd.js",
   "module": "./dist/vue3-datepicker-ja.js",
-  "types": "./dist/main.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/vue3-datepicker-ja.js",
-      "require": "./dist/vue3-datepicker-ja.umd.js",
-      "types": "./index.d.ts"
+      "require": "./dist/vue3-datepicker-ja.umd.js"
     }
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && yarn run generate",
+    "build": "vite build",
     "generate": "vue-tsc --declaration --emitDeclarationOnly --outdir ./dist",
     "preview": "vite preview"
   },

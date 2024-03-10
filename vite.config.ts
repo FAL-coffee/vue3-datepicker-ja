@@ -11,7 +11,7 @@ export default defineConfig({
     vue(),
     dts({
       entryRoot: 'src/DatePicker',
-      outDir: 'dist/types',
+      outDir: 'dist',
     }),
     cssInjectedByJsPlugin(),
   ],
